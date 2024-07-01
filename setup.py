@@ -38,7 +38,7 @@ if len(argv) > 1 and argv[1] in ["bdist_wheel", "install", "develop"]:
     errors_compiler.start()
 
 setup(
-    name="Pyrogram",
+    name="ViiGanteng",
     version=version,
     description="Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots",
     long_description=readme,
@@ -56,7 +56,6 @@ setup(
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
@@ -78,7 +77,7 @@ setup(
         "Source": "https://github.com/pyrogram/pyrogram",
         "Documentation": "https://docs.pyrogram.org",
     },
-    python_requires="~=3.7",
+    python_requires="~=3.8",
     package_data={
         "pyrogram": ["py.typed"],
     },
